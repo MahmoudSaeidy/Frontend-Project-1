@@ -236,22 +236,22 @@ position: relative;
     position: absolute;
     z-index: -1;
 }
-.server .text{
+.service .text{
     padding-left:40px;
     top:-10px;
     
 }
-.server .text h2{
+.service .text h2{
     margin:0;
 }
-.server .text p{
+.service .text p{
     line-height: 1.8;
 }
-.server i{
+.service i{
     font-size: 30px;
     color:var(--main-color)
 }
-.server{
+.service{
     display: flex;
     margin-bottom: 50px;
 }
@@ -265,26 +265,26 @@ position: relative;
     .services .container{
         grid-gap: 0px;  
     }
-    .server{
+    .service{
         display: flex;
         margin-bottom: 50px;
         text-align: center;
         flex-direction: column;
     }
-    .server .text{
+    .service .text{
         padding-left:0px;
         top:-10px;
         
     }
-    .server .text p {
+    .service .text p {
         line-height: 1.8;
     }
-    .server i{
+    .service i{
         text-align: center;
         right:100px;
         margin-bottom: 60px;
     }
-    .server .text{
+    .service .text{
         margin-bottom: 20px;;
     }
 }
